@@ -4,17 +4,17 @@ A OpenType script that displays Hebrew multi-gender words as *male* or *female*.
 
 The feature works on 'divided words' such as: דרושים/ות, א.נשים, שלכםן etc.
 
-## More Info
+## Embedding Instruction
 
-Use with css:
-
-// CSS:
-```.female { font-feature-settings: "ss11"; }
+CSS:
+```CSS
+.female { font-feature-settings: "ss11"; }
 .male { font-feature-settings: "ss12"; }
 ```
 
-// Javascript:
-```document.getElementById("MyElement").className = "female";
+Javascript:
+```JavaScript
+document.getElementById("MyElement").className = "female";
 ```
 
 
