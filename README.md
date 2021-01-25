@@ -1,13 +1,32 @@
 # The Equal Feature
 
-A OpenType script for Hebrew fonts that displays multi-genger words as *male* or *female*. Developed by Avraham Cornfeld at [AlefAlefAlef](https://alefalefalef.co.il).
+A OpenType script that displays Hebrew multi-gender words as *male* or *female*. Developed by Avraham Cornfeld at [AlefAlefAlef](https://alefalefalef.co.il).
 
 The feature works on 'divided words' such as: דרושים/ות, א.נשים, שלכםן etc.
 
 ## More Info
 
-[About Equal Fonts (in Hebrew)](https://github.com/AlefAlefAlef/equal-feature)
+Use with css:
+
+// CSS:
+```.female { font-feature-settings: "ss11"; }
+.male { font-feature-settings: "ss12"; }
+```
+
+// Javascript:
+```document.getElementById("MyElement").className = "female";
+```
+
+
+Read more at:
+
+[About Equal Fonts (in Hebrew)](https://alefalefalef.co.il/about-equal-fonts/)
+
 [The Ivrita Project](https://github.com/AlefAlefAlef/ivrita)
+
+## Contributing
+
+Pull requests are welcome.
 
 ## Open Source
 
